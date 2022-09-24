@@ -4,11 +4,11 @@ namespace WebApi.Controllers;
 
 [ApiController]
 [Route("[controller]")]
-public class DiController : ControllerBase
+public class CalculateController : ControllerBase
 {
-    private readonly ILogger<DiController> _logger;
+    private readonly ILogger<CalculateController> _logger;
 
-    public DiController(ILogger<DiController> logger)
+    public CalculateController(ILogger<CalculateController> logger)
     {
         _logger = logger;
     }
